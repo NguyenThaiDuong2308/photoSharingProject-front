@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #5bbcff;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn:hover {
+  color: #5bbcff;
+  outline: 1px solid #5bbcff;
+  background: transparent;
+}
